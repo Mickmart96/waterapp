@@ -11,12 +11,6 @@ const BarraRicerca = ({ city, setCity, handleSearch }) => {
         expand="lg"
         className="rounded-3 justify-content-center "
       >
-        <img
-          src = {img}
-            width="70"
-            height="70"
-            className="my-3"
-          />
 
         <Form className="d-flex mx-3 ">
           <Form.Control
@@ -26,10 +20,11 @@ const BarraRicerca = ({ city, setCity, handleSearch }) => {
             onChange={(e) => setCity(e.target.value)}
             aria-label="Search"
           />
-          <Button onClick={handleSearch} variant="outline-info mx-3 rounded-5">
+        <Button onClick={handleSearch} variant="outline-info mx-3 rounded-5">
             Search
           </Button>
         </Form>
+        
       </Navbar>
     </>
   );

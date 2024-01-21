@@ -1,4 +1,10 @@
 body{
     background-image: url(./assets/pexels-johannes-plenio-1118873.jpg);
-    background-size: cover;
+    background-size: cover ;
+ 
 }
+.transparent-card {
+    background: transparent;
+    border: none;
+  }
+
